@@ -127,6 +127,7 @@ input:focus{
 button{
     background-color: rgba(0, 0, 0, 0);
     color: var(--color);
+    font-family: my-cool-font;
     font-weight: 700;
     font-size: 1.2em;
     border: 2px solid var(--color);

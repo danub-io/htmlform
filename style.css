@@ -33,7 +33,6 @@ body {
     flex-flow: row wrap;
 }
 
-
 /* left side */
 
 .picture{
@@ -43,7 +42,6 @@ body {
     background-repeat: no-repeat;
     width: 40vw;
 }
-
 
 .logo{
     height: auto;
@@ -65,12 +63,6 @@ h1{
     height: 10vh;
 }
 
-
-
-
-
-
-
 /* right side */
 
 .right{
@@ -79,8 +71,6 @@ h1{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    
-
 }
 
 .left{
@@ -97,9 +87,7 @@ h1{
     margin: 40px 0 80px;
 }
 
-
 /* form */
-
 .form{
     background-color: rgb(6, 6, 6);
     box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
@@ -149,8 +137,7 @@ button{
 
 button:hover{
     background-color: var(--color);
-    color: black;
-    
+    color: black;    
 }
 
 .log-in{
@@ -167,15 +154,6 @@ a{
 a:hover{
     color: white;
 }
-
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 600px)  {
     .content{
@@ -238,5 +216,4 @@ a:hover{
         width: 60vw;
         padding: 10px 5px;
     }
-
 }
